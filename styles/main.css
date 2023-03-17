@@ -1,0 +1,134 @@
+body {
+  padding: 20px;
+}
+.sentiments{
+  padding: 1px 3px;
+  border: 1px solid orange;
+  display: inline;
+  border-radius: 6px;
+  background-color: orange;
+  color: white;
+}
+.sentiments-div{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.sentiment-span{
+  font-size: 14px;
+  margin-left: 5px;
+}
+.highlight{
+  background-color: yello !important;
+  border: 1px solid yello !important;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;padding: 0 4px;
+}
+.adjacent-div{
+  width: 25%;
+  height: 786px;
+  float: right;
+  background-color: rgb(255, 255, 255);
+  padding: 25px;
+  border-left: 1px solid #b2aeae;
+}
+.negative{
+  background-color: pink;
+  color: red;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline;
+  border-color: red;
+}
+.highlight{
+  font-size: 80px;
+  font-weight:bolder;
+  text-align: center;
+  align-items: center;
+}
+.highlight-red{
+  color: #f04d49;
+  border: 1px solid #f04d49;  
+  font-weight:bolder;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 16px;
+}
+.highlight-green{
+  color: rgb(49, 229, 49);
+  border: 1px solid rgb(49,229,49);
+  font-weight:bolder;
+  text-align: center;  
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 16px;
+}
+.highlight-actions-blue{
+    border: 1px solid #318CE7;
+    color: #318CE7;
+    font-weight:bolder;
+   text-align: center;
+   padding: 5px;
+   border-radius: 5px;
+   margin: 5px;
+   font-size: 16px;
+}
+.highlight-neutral{
+  border: 1px solid rgb(136, 234, 252);
+  color: rgb(136, 234, 252);  
+  font-weight:bolder;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.sentiment-container{
+  font-size: 21px;
+  font-weight: 400;
+}
+.sentiment-container p{
+  margin: 0;
+}
+.out{
+  font-size: 15px;
+  font-weight: 400;
+}
+#myProgress {
+  width: 100%;
+  background-color: #99c2ff;
+  margin-bottom: 5px;
+}
+
+#myBar {
+  
+  height: 5px;
+  background-color: #005ce6;
+}
+.score{
+  color: rgb(49, 229, 49);
+  font-size: 70px;
+  font-weight:bolder;
+}
+.linear{
+  width: 50%;
+  margin: 5px auto;
+}
+.sentiment-score{
+  margin-bottom: 25px;
+}
+.action-sets{
+  margin-bottom: 10px;
+}
+#percent{
+  font-size: 18px;
+}
